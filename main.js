@@ -4,7 +4,13 @@ function appendListItem (element) {
 }
 function appendDiv (element) {
     const dDiv = document.querySelector('div');
-    document.querySelector = dDiv.appendChild(element);
+    dDiv.appendChild(element);
     div.innerText = 'id=lorem';
 }
-function takeInText ( )
+function takeInText (str) {
+    const newLi = document.createElement('li');
+    newLi.innerText = 'innerText';
+}
+function takeInImg (element, str) {
+
+}
